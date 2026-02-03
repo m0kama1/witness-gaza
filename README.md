@@ -1,53 +1,92 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Witness Gaza
 
-# Witness Gaza (Evidence-first Interactive Dashboard)
+**Witness Gaza** is an interactive, AI-powered human rights dashboard designed to document and visualize the humanitarian impact of the Gaza war through verified data, maps, timelines, and evidence-based indicators.
 
-An **evidence-first, human-rights documentation interface** that turns publicly cited data into a clear, interactive experience:
-dashboards, evidence cards, map views, timeline exploration, and AI-assisted inquiry — with a focus on **source transparency** and **non-incendiary language**.
+The project transforms complex reports and datasets into a clear, accessible, and interactive experience focused on transparency, documentation, and responsible use of AI.
 
-> **Important:** This project is for documentation, research, and educational use.
-> It is not a substitute for official legal investigations or judicial determinations.
+---
 
-## Features
-- **Truth Dashboard:** key indicators with filters (date, region, category)
-- **Evidence Cards:** short summaries with citation placeholders
-- **Map + Timeline views:** explore patterns across time and geography
-- **AI Inquiry:** ask questions and get answers grounded in in-app evidence
-- **Export:** generate a report snapshot (UI flow)
+## 🔍 Project Overview
 
-## Data & Sources
-This repository ships with UI + templates. Add your sources and methodology here:
+Witness Gaza provides a centralized interface for exploring documented humanitarian indicators, including:
+
+- Civilian casualties, with a focus on children
+- Damage to healthcare infrastructure and medical facilities
+- Destruction of residential and civilian buildings
+- Impact on cultural and religious sites
+- Time-based and location-based visualization of events
+
+All data is presented with source attribution, update timestamps, and verification status.
+
+---
+
+## ✨ Key Features
+
+- **Truth Dashboard**  
+  High-level indicators with clear visual hierarchy
+
+- **Interactive Map**  
+  Geographic visualization of documented incidents and damage
+
+- **Timeline View**  
+  Chronological exploration of events and escalation patterns
+
+- **Evidence Cards**  
+  Structured summaries with sources and contextual information
+
+- **AI-Assisted Inquiry**  
+  Ask questions and generate summaries based on documented data
+
+- **Report Export**  
+  Generate structured reports suitable for research and journalism
+
+---
+
+## 🧠 Responsible AI & Methodology
+
+- AI outputs are grounded in documented and referenced data
+- No real-time intelligence or predictive modeling is used
+- The project prioritizes accuracy, traceability, and non-sensational presentation
+
+For details, see:
 - `docs/methodology.md`
 - `docs/data-sources.md`
 - `docs/legal-disclaimer.md`
 
-## Run Locally
-**Prerequisites:** Node.js (LTS)
+---
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Create `.env.local` and set your Gemini key:
-   ```bash
-   GEMINI_API_KEY=YOUR_KEY_HERE
-   ```
-3. Start dev server:
-   ```bash
-   npm run dev
-   ```
+## 🛠️ Tech Stack
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+- React + TypeScript
+- Vite
+- Data visualization components
+- GitHub Actions for CI/CD
+- GitHub Pages for deployment
 
-## Repo Hygiene
-- Never commit secrets (API keys, private datasets).
-- `.env.local` is ignored by git via `*.local`.
+---
 
-## License
-MIT — see `LICENSE`.
+## 🚀 Live Demo
+
+👉 https://m0kama1.github.io/witness-gaza/
+
+---
+
+## 👤 Author
+
+**Mohamed Kamal**  
+Founder & Developer
+
+This project was designed and developed independently as a research-oriented and documentation-focused application.
+
+---
+
+## ⚖️ Disclaimer
+
+This project is intended for documentation, research, and educational purposes only.  
+It does not represent official legal findings or real-time reporting and should not be treated as a substitute for formal investigations.
+
+---
+
+## 📄 License
+
+MIT License
